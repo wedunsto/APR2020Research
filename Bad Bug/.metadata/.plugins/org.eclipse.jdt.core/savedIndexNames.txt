@@ -1,0 +1,17 @@
+INDEX VERSION 1.131+/home/will/Documents/Research/Bad Bug/.metadata/.plugins/org.eclipse.jdt.core
+2141345856.index
+2002744716.index
+286523266.index
+1802210331.index
+646308851.index
+161396488.index
+349355912.index
+3459951584.index
+293370408.index
+3684088614.index
+2835093525.index
+830684588.index
+2909961486.index
+1692439147.index
+824449362.index
+4004384248.index

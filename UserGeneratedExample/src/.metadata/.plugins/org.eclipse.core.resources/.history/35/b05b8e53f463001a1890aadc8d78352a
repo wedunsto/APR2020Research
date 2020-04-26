@@ -1,0 +1,23 @@
+
+public class Rectangle {
+	public static boolean EqualSides(int sideLength1, int sideLength2, int sideLength3, int sideLength4) {
+		if((sideLength1 == sideLength2) & (sideLength3 == sideLength4) & (sideLength1 == sideLength3)) return true;
+		else return false;
+	}
+	
+	public static boolean EqualAngles(int angle1, int angle2, int angle3, int angle4) {
+		if((angle1 == angle2) & (angle3 == angle4) & (angle1 == angle3)) return true;
+		else return false;
+	}
+	
+	public static boolean ConnectedXCoordinate(int xcoord1, int xcoord2, int xcoord3, int xcoord4) {
+		if((xcoord1 != xcoord2) & (xcoord3 == xcoord4)) return true;
+		//The first conditional should be ==
+		else return false;
+	}
+	
+	public static boolean ConnectedYCoordinate(int ycoord1, int ycoord2, int ycoord3, int ycoord4) {
+		if((ycoord1 == ycoord4) & (ycoord3 == ycoord2)) return true;
+		else return false;
+	}
+}

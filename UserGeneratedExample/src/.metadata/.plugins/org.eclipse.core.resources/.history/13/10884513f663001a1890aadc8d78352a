@@ -1,0 +1,9 @@
+package shapes;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class SquareTest {
+	private Square testSquare = new Square();
+}

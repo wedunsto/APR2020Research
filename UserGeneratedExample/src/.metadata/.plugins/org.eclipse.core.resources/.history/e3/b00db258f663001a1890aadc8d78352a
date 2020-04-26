@@ -1,0 +1,33 @@
+package shapes;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class SquareTest {
+	private Square testSquare = new Square(); //Create an object of the class under test
+	
+	@Test
+	void SidesTest() {
+		boolean result = testSquare.EqualSides(5,5,5,5);
+		assertEquals(result,true);
+	}
+	
+	@Test
+	void AngleTest() {
+		boolean result = testSquare.EqualAngles(90,90,90,90);
+		assertEquals(result,true);
+	}
+	
+	@Test
+	void ConnectedXCoordinateTest() {
+		boolean result = testSquare.ConnectedXCoordinate(0,0,5,5);
+		assertEquals(result, true);
+	}
+	
+	@Test
+	void ConnectedYCoordinateTest() {
+		boolean result = testSquare.ConnectedYCoordinate(0,5,5,0);
+		assertEquals(result, true);
+	}
+}

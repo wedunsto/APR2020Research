@@ -1,0 +1,4 @@
+Meeting Notes:
+look to install JFix get some examples running on it
+maybe focus on just KGenProg
+

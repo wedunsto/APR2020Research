@@ -1,0 +1,5 @@
+#TOML file to configure KGenProg for this Java project
+root-dir = "./" #Specify root path of target project.
+src = ["src/UserDefinedJavaProject/src/shapes/Square.java"] #Specify path to main class
+test = ["src/UserDefinedJavaProject/src/shapes/SquareTest.java"] #Specify path to test class
+log-level = "INFO" #Specify log level to be shown

@@ -1,0 +1,14 @@
+
+public class Main {
+	public static boolean EqualSides(int sideLength1, int sideLength2, int sideLength3, int sideLength4) {
+		if((sideLength1 == sideLength2) & (sideLength3 == sideLength4) & (sideLength1 == sideLength3)) return true;
+		else return false;
+	}
+	
+	public static boolean EqualAngles(int angle1, int angle2, int angle3, int angle4) {
+		if((angle1 == angle2) & (angle3 == angle4) & (angle1 == angle3)) return true;
+		else return false;
+	}
+	
+	
+}
